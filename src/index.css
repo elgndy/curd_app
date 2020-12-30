@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App{
+  background-image: url(./imgs/a106.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0;
+}
+
+.pairant{
+  overflow: auto;
+  color: #fff;
+  box-shadow: 0px 0px 50px #aaa,
+   0px 0px 30px inset #aaa;
+  border: .5px solid #fff;
+  position: absolute;
+  top: 9%;
+  left: 9.5%;
+  background: rgba(0,0,0,.5);
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+}
+
+.child{
+  width: 80%;
+  margin: auto;
+}
+
+.form_of_header{
+  display: flex;
+  margin: 35px;
+}
+
+.form_of_header input[type = text] {
+  width: 68%;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding: 10px;
+  outline: 0;
+  font-size: 20px;
+}
+.form_of_header input[type = button] {
+  width: 30%;
+  font-size: 18px;
+  color: #fff;
+  background: rgb(123, 226, 102);
+  border: 0;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  cursor: pointer;
+  outline: 0;
+  margin-left: 10px;
+  transition: all .5s;
+}
+
+.form_of_header input[type = button]:hover{
+  color: rgb(148, 238, 130);
+  background: #fff;
+  transition: all .5s;
+}
+
+.child2{
+  width: 100%;
+  margin: auto;
+}
+
+.listcours {
+  background: #fff;
+  display: flex;
+  width: 95%;
+  margin:  0 0 0 2.5%;
+}
+
+.listcours input[type = text] {
+  width: 68%;
+  padding: 0px;
+  outline: 0;
+  font-size: 16px;
+}
+.listcours input[type = button] {
+  width: 30%;
+  padding: 5px;
+  font-size: 16px;
+  color: #fff;
+  background: rgb(37, 177, 153);
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  margin-left: 10px;
+  transition: all .5s;
+}
+
+ .listcours input[type = button]:hover{
+  color: rgb(37, 177, 153);
+  background: #fff;
+  transition: all .5s;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  margin: 10px 0px;
+  display: flex;
+}
+
+li span{
+  width: 60%;
+ color: #aaa;
+  text-align: left;
+}
+
+li button:first-of-type{
+  width: 20%;
+  padding: 7px;
+  font-size: 15px;
+  color: #fff;
+  background: rgb(37, 177, 153);
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+
+  transition: all .5s;
+}
+li button:last-of-type{
+  width: 20%;
+  padding: 7px;
+  font-size: 15px;
+  color: #fff;
+  background: rgb(233, 67, 75);
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  margin: 0px 10px 0 5px;
+  transition: all .5s;
+}
+
+#pp{
+  color: tomato;
+}
+
